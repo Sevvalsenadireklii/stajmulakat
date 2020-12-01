@@ -1,0 +1,166 @@
+h1,h2,h3,h4,h5,h6, body{
+	font-family: 'Overpass', sans-serif !important;
+}
+
+.bgDark{
+	background-color: #212121;
+}
+
+.bgBlue{
+	background-color: #006cb7;
+}
+
+.allPad{
+	padding: 120px 0;
+}
+
+.circleIconUp{
+	display: inline-block;
+	position: relative;
+	text-align: -webkit-center;
+}
+
+.circleIcon{
+	position: relative;
+	color: #fff;
+	font-size: 40px;
+	height: 100px;
+	width: 100px;
+	display: block;
+	line-height: 110px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #212121;
+	margin-bottom: 50px;
+}
+
+.circleIconSocial{
+	position: relative;
+	color: #fff !important;
+	font-size: 20px;
+	height: 50px;
+	width: 50px;
+	display: block;
+	line-height:55px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #212121;
+	margin-bottom: 50px;
+	float: left;
+	margin-left: 15px;
+}
+
+.circleIconSocial a{
+	color: whitesmoke;
+}
+
+.featureList{
+	text-align: left;
+	margin-bottom: 20px;
+	color: #eee;
+	display:-webkit-box;
+}
+
+.clientSayArea{
+	background-color: rgba(21,21,21,0.3);
+	border-radius: 3px;
+	margin-top: 50px;
+	padding:70px 40px 70px 40px;
+}
+
+.sayimg{
+	margin-top: 40px;
+	width: 80px;
+	float: left;
+}
+
+
+.widget-user-header{
+	/*padding: 20px;*/
+	border-radius: 10px;
+	/*background-color: rgba(21,21,21,0.5);*/
+	margin-top: -40px;
+}
+
+.widget-user-image>img{
+	width: 100px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+}
+.widget-user-username, .widget-user-desc{
+	text-align: left;
+	padding-left: 135px;
+}
+
+.footer-main h5{
+	margin-bottom: 50px;
+}
+
+.footer-main ul li{
+	list-style: none;
+	margin-bottom: 15px;
+	padding-left: 0;
+
+}
+
+.footer-main ul li a{
+	color:#212529;
+	text-decoration: none;
+	transition: .5s all;
+
+}
+.footer-main ul li a:hover{
+	color:#212529;
+	text-decoration: none;
+	margin-left: 8px;
+	transition: .5s all;
+
+}
+
+.headMenu{
+	outline: none !important;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+.mt--40{
+	margin-top: -40px;
+}
+
+.headMenu{
+	margin-bottom: -7px;
+	padding: 7px;
+	background-color: #006cb7;
+	color: white;
+
+}
+.headMenu ul li{
+	margin-left: 20px;
+	
+}
+.headMenu ul li a{
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+
+
+@media only screen and (max-width: 1024px){
+	.headMenu{
+		display: none;
+	}
+}
+
+
+.asimetrikBox {
+	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+	border-radius: 5px;
+	background-color: #006cb7;
+	margin-top: -55px;
+	padding: 50px;
+	color: whitesmoke;
+	
+
+}
